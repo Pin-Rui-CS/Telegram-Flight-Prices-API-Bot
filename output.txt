@@ -1,0 +1,342 @@
+{
+    "meta": {
+        "count": 2,
+        "links": {
+            "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SIN&destinationLocationCode=NRT&departureDate=2026-04-16&adults=1&nonStop=true&currencyCode=SGD&max=3"
+        }
+    },
+    "data": [
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2026-04-16",
+            "lastTicketingDateTime": "2026-04-16",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT7H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SIN",
+                                "terminal": "3",
+                                "at": "2026-04-16T09:25:00"
+                            },
+                            "arrival": {
+                                "iataCode": "NRT",
+                                "terminal": "1",
+                                "at": "2026-04-16T17:30:00"
+                            },
+                            "carrierCode": "SQ",
+                            "number": "12",
+                            "aircraft": {
+                                "code": "77W"
+                            },
+                            "operating": {
+                                "carrierCode": "SQ"
+                            },
+                            "duration": "PT7H5M",
+                            "id": "1",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "SGD",
+                "total": "3256.00",
+                "base": "3165.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "3256.00"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "SQ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "SGD",
+                        "total": "3256.00",
+                        "base": "3165.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "1",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YIFSQ",
+                            "brandedFare": "YCLFLEXI",
+                            "brandedFareLabel": "ECONOMY FLEXI",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "includedCabinBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "description": "NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION STANDARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CANCELLATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BOOKING CHANGE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION FORWARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "100 PERCENT KF MILES EARNED",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE WITH MILES PWM",
+                                    "isChargeable": true,
+                                    "amenityType": "UPGRADES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": false,
+            "isUpsellOffer": false,
+            "lastTicketingDate": "2026-04-16",
+            "lastTicketingDateTime": "2026-04-16",
+            "numberOfBookableSeats": 9,
+            "itineraries": [
+                {
+                    "duration": "PT7H5M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "SIN",
+                                "terminal": "2",
+                                "at": "2026-04-16T23:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "NRT",
+                                "terminal": "1",
+                                "at": "2026-04-17T08:00:00"
+                            },
+                            "carrierCode": "SQ",
+                            "number": "638",
+                            "aircraft": {
+                                "code": "787"
+                            },
+                            "operating": {
+                                "carrierCode": "SQ"
+                            },
+                            "duration": "PT7H5M",
+                            "id": "2",
+                            "numberOfStops": 0,
+                            "blacklistedInEU": false
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "SGD",
+                "total": "3256.00",
+                "base": "3165.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    }
+                ],
+                "grandTotal": "3256.00"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": true
+            },
+            "validatingAirlineCodes": [
+                "SQ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "SGD",
+                        "total": "3256.00",
+                        "base": "3165.00"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "2",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "YIFSQ",
+                            "brandedFare": "YCLFLEXI",
+                            "brandedFareLabel": "ECONOMY FLEXI",
+                            "class": "Y",
+                            "includedCheckedBags": {
+                                "weight": 30,
+                                "weightUnit": "KG"
+                            },
+                            "includedCabinBags": {
+                                "quantity": 1
+                            },
+                            "amenities": [
+                                {
+                                    "description": "NO SHOW",
+                                    "isChargeable": true,
+                                    "amenityType": "TRAVEL_SERVICES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION STANDARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "CANCELLATION",
+                                    "isChargeable": true,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "BOOKING CHANGE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "SEAT SELECTION FORWARD ZONE",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "100 PERCENT KF MILES EARNED",
+                                    "isChargeable": false,
+                                    "amenityType": "BRANDED_FARES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                },
+                                {
+                                    "description": "UPGRADE WITH MILES PWM",
+                                    "isChargeable": true,
+                                    "amenityType": "UPGRADES",
+                                    "amenityProvider": {
+                                        "name": "BrandedFare"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "dictionaries": {
+        "locations": {
+            "NRT": {
+                "cityCode": "TYO",
+                "countryCode": "JP"
+            },
+            "SIN": {
+                "cityCode": "SIN",
+                "countryCode": "SG"
+            }
+        },
+        "aircraft": {
+            "787": "787  ALL SERIES PASSENGER",
+            "77W": "BOEING 777-300ER"
+        },
+        "currencies": {
+            "SGD": "SINGAPORE DOLLA"
+        },
+        "carriers": {
+            "SQ": "SINGAPORE AIRLINES"
+        }
+    }
+}

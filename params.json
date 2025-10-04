@@ -1,0 +1,29 @@
+{
+    "flight_offers_search":{
+        "url": "https://test.api.amadeus.com/v2/shopping/flight-offers",
+        "params": {
+            "originLocationCode": "",
+            "destinationLocationCode": "",
+            "departureDate": "",
+            "adults": "1",
+            "nonStop": "true",
+            "currencyCode": "SGD",
+            "max": "3",
+            "travelClass": "ECONOMY"
+        }
+    },
+    "flight_cheapest_date_search": {
+        "url": "https://test.api.amadeus.com/v1/shopping/flight-dates",
+        "params": {
+            "origin": "",
+            "destination": ""
+        }
+    },
+    "travel_recommendation": {
+        "url": "https://test.api.amadeus.com/v1/reference-data/recommended-locations",
+        "params": {
+            "cityCodes": "",
+            "travelerCountryCode": ""
+        }
+    }
+}
